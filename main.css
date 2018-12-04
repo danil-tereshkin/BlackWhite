@@ -1,0 +1,32 @@
+body {
+    font-size: 0;
+}
+
+p.black,
+p.white {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 3px;
+    display: inline-block;
+    /*    border: 1px solid black;*/
+}
+
+p.black {
+    padding-left: 10px;
+    box-shadow: 0 0 0 1px black;
+    background-color: white;
+    color: black;
+    border: 0.5px solid white;
+}
+
+p.white {
+    padding-right: 10px;
+    padding-left: 2px;
+    box-shadow: 1px 0 0 0px black, 1px 1px 0 0 black, 1px -1px 0 0 black;
+    background-color: black;
+    color: white;
+    border: 0.5px solid white;
+}
